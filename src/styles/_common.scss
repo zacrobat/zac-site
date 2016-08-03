@@ -1,17 +1,15 @@
 body {
   font-family: $font-stack;
-  color: $color-cool;
-  font-weight: 400;
+  color: $main-color;
   font-size: 16px;
   line-height: 150%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000;
+  background-color: #fff;
   // margin: 0 auto;
-}
-p {
-  margin: 18px 0;
-  text-align: center;
+  // text-align: center;
+  // margin: 25vh auto;
+  // margin-top: 25vh;
 }
 footer,
 header,
@@ -19,45 +17,40 @@ section {
   > div {
     max-width: 1080px;
     min-width: 320px;
-    margin: 0 auto;
-    text-align: center;
+    padding: 0 12px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 img {
   width: 100%;
   height: auto;
 }
-// header {
-//     nav {
-//         margin: 20px;
-//         ul {
-//             padding-left: 0;
-//             li {
-//                 display: block;
-//                 a {
-//                     line-height: 20px;
-//                 }
-//             }
-//         }
-//     }
-// }
-footer {}
-#landing {
-  // Here goes styling which will only apply to the landing page, to div#landing
+h1 {
+  font-size: 20px;
 }
-.footer-image {
-  display: block;
-  position: fixed;
-  bottom: 20px;
+h2 {
+  font-size: 18px;
 }
-.footer-image {
-  // display: block;
-  // margin-left: auto;
-  // margin-right: auto;
-  // width: 100%;
+p {
+  font-size: 16px;
 }
-@media screen and (max-width:680px) {
-  // img {
-  //     width: 1000px;
-  // }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+#introduction {
+  margin-top: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#contact-zac {
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
