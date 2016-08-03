@@ -204,6 +204,12 @@ section > div {
   margin-right: auto;
 }
 
+a,
+button,
+input {
+  transition: 0.25s;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -238,9 +244,25 @@ h6 {
 }
 
 #contact-zac {
-  margin-top: 48px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin: 22px auto 12px;
+}
+#contact-zac button,
+#contact-zac input {
+  background-color: transparent;
+  border: 1px solid #000;
+  padding: 6px 12px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+#contact-zac .mail-input-box,
+#contact-zac input {
+  width: 300px;
+}
+#contact-zac button:hover,
+#contact-zac input[type="submit"]:hover {
+  color: #fff;
+  background-color: #000;
 }
 
 /*# sourceMappingURL=main.css.map */
